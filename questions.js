@@ -6,19 +6,27 @@
 // --- LESSON DEFINITIONS ---
 const lessons =[
     {
-        id: 'LESSON_ID_HERE',
-        title: 'حضارة بلاد العراق القديم وفينيقيا',
-        description: 'أسئلة وتدريبات على حضارة بلاد العراق القديم وحضارة فينيقيا.',
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>`
+        id: 'LESSON_IRAQ',
+        title: 'حضارة بلاد العراق القديم',
+        description: 'أسئلة وتدريبات شاملة على نشأة وتاريخ ومظاهر حضارة بلاد العراق القديم.',
+        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22h20"/><path d="M12 2v20"/><path d="M4 22V10l8-8 8 8v12"/></svg>`
+    },
+    {
+        id: 'LESSON_PHOENICIA',
+        title: 'حضارة بلاد فينيقيا',
+        description: 'أسئلة وتدريبات شاملة على تاريخ ومظاهر حضارة فينيقيا والتواصل الحضاري.',
+        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12A10 10 0 1 0 22 12 10 10 0 1 0 2 12Z"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`
     }
 ];
 
 // --- QUESTION BANK ---
 const allQuestions =[
-    // Page 1
+    // ==========================================
+    // الجزء الأول: حضارة بلاد العراق القديم (Pages 1-8)
+    // ==========================================
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 1,
         passage: "",
         prompt: "تميز السومريين عن بقية الدول التي ظهرت بارض العراق بـ ....",
@@ -30,7 +38,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 2,
         passage: "",
         prompt: "يستثني من التشابه بين عوامل ازدهار الحضارة المصرية والعراقية القديمة ....",
@@ -42,7 +50,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 3,
         passage: "",
         prompt: "عرفت العراق نظام الحكومة المركزية أول مرة علي يد ....",
@@ -54,7 +62,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 4,
         passage: "",
         prompt: "يخرج عن عوامل إنهيار دولة الأشوريين ....",
@@ -66,7 +74,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 5,
         passage: "",
         prompt: "ارتبط الاستقرار الداخلي في دولة بابل القديمة بـ ....",
@@ -78,7 +86,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 6,
         passage: "",
         prompt: "استنتج الأثر الناتج عن : الصدمات الدموية بين المدن السومرية .",
@@ -87,17 +95,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 7,
         passage: "",
         prompt: "حدد أوجه الشبه والاختلاف بين : الدولة السومرية والدولة الاشورية ؟",
         correctAnswerText: "كلاهما لهم الاصل العرقي من شبه الجزيره العربيه واتبعوا سياسه خاطئه ادت لسقوط البلاد / الاختلاف السومريه سكنوا جنوب العراق ..الاشوريه سكنوا شمال العراق",
         explanation: "الشبه يتمثل في الانتماء إلى الشعوب التي هاجرت من شبه الجزيرة العربية ووقوع كليهما في أخطاء سياسية أدت للانهيار. أما الاختلاف فيكمن في التوزيع الجغرافي (السومريون في الجنوب والآشوريون في الشمال)."
     },
-    // Page 2
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 1,
         passage: "",
         prompt: "يتشابه سرجون الأول وسرجون الثاني رغم انتمائهم إلي فترات زمنية مختلفة في ....",
@@ -109,7 +116,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 2,
         passage: "",
         prompt: "أي من شعوب العراق القديمة تميزت فترة حكمهم بحروب وصراعات داخلية ؟ ....",
@@ -121,7 +128,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 3,
         passage: "",
         prompt: "\" تعرضت العراق خلال تاريخة لهجمات من عدة دول خارجية سعت لاحتلاله والسيطرة عليه \" بدراسة تاريخ العراق القديم نجد أن أول غزو لبلاد العراق قديمًا تم من ....",
@@ -133,7 +140,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 4,
         passage: "",
         prompt: "غاب عن مجمل حياة السومريين في بلاد العراق القديمة ....",
@@ -145,7 +152,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 5,
         passage: "",
         prompt: "اخر الهجرات التي وفدت للعراق قديمًا من البلاد التي تقع في الجنوب منها استقرت في ....",
@@ -157,7 +164,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 6,
         passage: "",
         prompt: "أيد صحة العبارة التالية : ساهمت سياسة الأشوريين في انهيار دولتهم ؟",
@@ -166,17 +173,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 7,
         passage: "",
         prompt: "حدد وجه الشبه بين : عوامل نشأة الحضارة المصرية والحضارة العراقية القديمة .",
         correctAnswerText: "وجود الانهار والتربه الخصبه والموقع المتميز",
         explanation: "البيئة الجغرافية المتشابهة حيث قامت كلا الحضارتين على ضفاف الأنهار العظيمة (النيل في مصر ودجلة والفرات في العراق) والتي وفرت تربة خصبة للزراعة، إلى جانب الموقع الجغرافي المتميز."
     },
-    // Page 3
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 1,
         passage: "",
         prompt: "أي من شعوب العراق القديمة تجلت بينها نظام اللامركزية السياسية ؟ ....",
@@ -188,7 +194,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 2,
         passage: "",
         prompt: "\" شهدت بلاد العراق قديمًا حتي الفتح الاسلامي عدة حقب تاريخية \" أي من الأتي تعاقب علي حكم العراق أكثر من مرة قبل الفتح الاسلامي ؟ ....",
@@ -200,7 +206,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 3,
         passage: "",
         prompt: "تتشابه أهم أعمال الملك سرجون الأول مع أي من حكام مصر القديمة ؟ ....",
@@ -212,7 +218,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 4,
         passage: "",
         prompt: "وضح العلاقة بين : الفرس وانتهاء الحكم الوطني بالعراق القديمة .",
@@ -221,17 +227,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 5,
         passage: "",
         prompt: "ما تقييمك لـ : تشريعات الملك حمورابي .",
         correctAnswerText: "عباره صادقه حققت الامن والاستقرار",
         explanation: "تشريعات حمورابي تميزت بالشمول والحزم، وساهمت بشكل فعال في حفظ الأمن وحماية الضعفاء واستقرار المجتمع البابلي."
     },
-    // Page 3/4
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 1,
         passage: "",
         prompt: "اشتهر العراق القديم برعاية حقوق الأطفال منذ بداية عهد الدولة ....",
@@ -243,7 +248,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 2,
         passage: "",
         prompt: "أي من الأتي عاصروا وجود الدول السومرية في بلاد العراق قديمًا ؟ ....",
@@ -255,7 +260,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 3,
         passage: "",
         prompt: "\" تعددت الوجهات البحرية خلال حضارات العراق المختلفة \" أي من الحضارات العراقية الأتية افتقدت تلك الميزة ؟ ....",
@@ -265,10 +270,9 @@ const allQuestions =[
         correctAnswerText: "السومريون والأكاديون",
         explanation: "السومريون والأكاديون اقتصر نفوذهم البحري على الخليج العربي جنوباً ولم يتوسعوا للوصول إلى البحر المتوسط مثلما فعل البابليون والآشوريون."
     },
-    // Page 4
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 4,
         passage: "",
         prompt: "حدد العلاقة بين : بلاد شبه الجزيرة العربية وقيام حضارات بلاد العراق .",
@@ -277,7 +281,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 5,
         passage: "",
         prompt: "ما تقييمك لمصداقية العبارة : تعدت شهرة حمورابي إصدار القوانين إلي العديد من الإنجازات العمرانية",
@@ -286,7 +290,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 1,
         passage: "",
         prompt: "أي مما يأتي يستثني من الحضارات العراقية التي اهتمت بالتوسع الخارجي ؟ .....",
@@ -298,7 +302,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 2,
         passage: "",
         prompt: "الدروس المستفادة من دراسة انهيار الدولة الاشورية تكمن في ....",
@@ -310,7 +314,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 3,
         passage: "",
         prompt: "يستثني من أعمال اشهر ملوك بابل القديمة ....",
@@ -322,16 +326,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 4,
         passage: "",
         prompt: "ايد صحة العبارة :",
         correctAnswerText: "احتل الفرس العراق ثم استولي الاسكندر الاكبر علي بابل ثم السلوقيون ثم الرومان ثم عادت العراق مره اخري تحت حكم الفرس ثم الفتح الاسلامي",
-        explanation: "هذه الإجابة للسؤال الخامس المتعلق بكون العراق مسرحاً للصراع، وقد أُدرجت هنا بناءً على ترتيب الملف."
+        explanation: "هذه الإجابة تمثل التسلسل التاريخي للاحتلالات التي تعرضت لها العراق، وتوضح أن العراق كان مسرحاً للصراعات."
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 5,
         passage: "",
         prompt: "كانت العراق مسرحا للصراع بين القوي الاستعمارية حتي الفتح العربي الإسلامي .",
@@ -340,17 +344,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 6,
         passage: "",
         prompt: "حدد وجه الشبه بين : سياسة الملك حمورابي والملك نبوخذ نصر التوسعية .",
         correctAnswerText: "تكوين امبراطوريه واسعه امتدت للبحر المتوسط",
         explanation: "كلاهما استطاع توسيع رقعة دولته وتكوين إمبراطورية امتدت حدودها لتشمل بلاد الشام حتى ساحل البحر المتوسط."
     },
-    // Page 5
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 1,
         passage: "",
         prompt: "\" الحضارة الانسانية سلسة متكاملة ساعد كل شعب فيها بقدر من الثقافة \" اي من الاتي يعد افضل ما قدمته العراق للحضارة الانسانية ؟ ............",
@@ -362,7 +365,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 2,
         passage: "",
         prompt: "جاء في الاثر \" يورث الفقر الذل للإنسان \" تتأكد تلك المقولة في حضارة العراق القديمة من خلال ...........",
@@ -374,7 +377,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 3,
         passage: "",
         prompt: "يؤكد تصميم المعبد العراقي القديم على ............",
@@ -386,7 +389,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 4,
         passage: "",
         prompt: "وجه الاختلاف بين الحضارة العراقية القديمة والحضارة المصرية القديمة ظهر في ............",
@@ -398,7 +401,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 5,
         passage: "",
         prompt: "اي من الاتي مثل دار المحفوظات في العراق القديمة ؟ .............",
@@ -410,7 +413,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 6,
         passage: "",
         prompt: "ايد صحة العبارة التالية : سجل التاريخ للسومريين أعمالاً عظيمة فى مجال الزراعة .",
@@ -419,17 +422,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 7,
         passage: "",
         prompt: "حدد : اهم انجازات الحضارة العراقية فى علوم الفلك .",
         correctAnswerText: "رصدوا النجوم والكواكب ووضعوا التقويم الشمسي",
         explanation: "العراقيون القدماء كانوا من أوائل من اهتموا بعلم الفلك، فرصدوا النجوم والكواكب ووضعوا تقويماً شمسياً متطوراً."
     },
-    // Page 6
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 1,
         passage: "",
         prompt: "جاءت السياسية الخارجية للعراق باثر سلبي ظهر ذلك في .........",
@@ -441,7 +443,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 2,
         passage: "",
         prompt: "رغم اتصاف فن النحت عند العراقيين القدماء بعدم الواقعية الا انه تميز بالدقة والمهارة العالية والدليل علي ذلك .............",
@@ -453,7 +455,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 3,
         passage: "",
         prompt: "الجانب الأكبر من عبء الحياة الاقتصادية في العراق القديم كان يقع علي عاتق ..........",
@@ -465,7 +467,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 4,
         passage: "",
         prompt: "يخرج عن مهام دور العبادة في العراق قديما .........",
@@ -477,7 +479,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 5,
         passage: "",
         prompt: "اي من دول العراق جعلت الجيش عبارة عن خدمة دائمة الدولة التي ؟ ..........",
@@ -489,7 +491,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 6,
         passage: "",
         prompt: "حدد وجه الشبة بين : سياسة الملك حمورابي والملك نبوخذ نصر التوسعية ؟",
@@ -498,17 +500,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 7,
         passage: "",
         prompt: "\" كان المجتمع العراقي مجتمعا طبقيا \" ايد صحة العبارة",
         correctAnswerText: "الطبقه العليا اعوان الملك وكبار رجال الدوله ورجال الدين / الطبقه الوسطي الموظفين صغار ضباط الجيش والجنود والتجار / الطبقه الدنيا اسري فقراء عبيد",
         explanation: "انقسم المجتمع العراقي قديماً إلى ثلاث طبقات بوضوح: عليا (رجال الدولة والكهنة)، ووسطى (الموظفين والحرفيين)، ودنيا (أسرى الحرب والعبيد)."
     },
-    // Page 7
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 1,
         passage: "",
         prompt: "انتقلت عبادة ربة الحب والحرب عند العراقيين الي مصر اثناء فترة .........",
@@ -520,7 +521,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 2,
         passage: "",
         prompt: "نستنتج من دراسة طبقات المجتمع العراقي ان اعداد الطبقة الدنيا في العراق القديمة زادت بصورة كبيرة خلال العصر .........",
@@ -532,7 +533,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 3,
         passage: "",
         prompt: "\" من الحماقة ان تهدم ما حققه الاخرين ليظهر للناس انجازك وحدك \" ينطبق هذا القول علي اي من حكام العراق ؟ ...........",
@@ -544,7 +545,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 4,
         passage: "",
         prompt: "استنج الاثر الناتج عن : التواصل الثقافي بين الحضارة العراقية والمصرية القديمة ؟",
@@ -553,7 +554,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 5,
         passage: "",
         prompt: "\" الحاجة ام الاختراع \" كيف تنطبق هذه العبارة علي السومريين ؟",
@@ -562,7 +563,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 1,
         passage: "",
         prompt: "يوجد تشابه في تسجيل الكتابة المسمارية التي اخترعها السومريون مع استخدام المصريون لـ ...........",
@@ -574,7 +575,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 2,
         passage: "",
         prompt: "تعد بمثابة دار للوثائق فى بلاد العراق القديمة .......",
@@ -584,10 +585,9 @@ const allQuestions =[
         correctAnswerText: "الزاقورات",
         explanation: "المعابد (الزقورات) كانت تستخدم كدور لحفظ السجلات والوثائق الرسمية."
     },
-    // Page 8
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 3,
         passage: "",
         prompt: "يخرج عن اعمال الملك البابلي حمورابي ........",
@@ -599,7 +599,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 4,
         passage: "",
         prompt: "ايد صحة العبارة التالية : برع العراقيين القدماء بصورة كبيرة في فن العمارة ؟",
@@ -608,7 +608,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 5,
         passage: "",
         prompt: "ساهم الموقع الجغرافي لبلاد العراق القديمة في ازدهار النشاط التجاري \" ناقش العبارة تاريخيا \" ؟",
@@ -617,7 +617,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 1,
         passage: "",
         prompt: "الفارق الجوهري بين الدين في الحضارة العراقية القديمة والحضارة المصرية القديمة ظهر في .....",
@@ -629,7 +629,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 2,
         passage: "",
         prompt: "ركزت معظم قوانين حمورابي علي البعد .......",
@@ -641,7 +641,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 3,
         passage: "",
         prompt: "\" كان الجيش العراقي القديم بشكل عام يتكون ويتجمع وقت الحروب وبعد انتهاء الحروب لا يوجد جيش\" من خلال العبارة السابقة أيا من ملوك العراق أصبح الجيش في عهده جيشا دائما .........",
@@ -653,7 +653,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 4,
         passage: "",
         prompt: "بم تفسر : يمكن ان نطلق عصر الملك الاشوري سنحاريب فترة المتناقضات .",
@@ -662,17 +662,20 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_IRAQ',
         originalNumber: 5,
         passage: "",
         prompt: "مثل فن النقش والرسم في العراق القديمة سجل تاريخي واجتماعي هام \" ناقش صحة العبارة تاريخيا \" .",
         correctAnswerText: "اهتم سكان العراق بالرسم والنقش علي الجدران والمعبد وشيد المسلات التي نقش عليها الانتصارات",
         explanation: "العراقيون القدماء تركوا على الجدران والمسلات نقوشاً توثق انتصاراتهم العسكرية وأحداثهم الهامة، كالنقوش على جدران المعابد والمسلات كمسلة حمورابي."
     },
-    // Page 9 (Phoenicia)
+
+    // ==========================================
+    // الجزء الثاني: حضارة بلاد فينيقيا والمراجعة (Pages 9-16)
+    // ==========================================
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 1,
         passage: "",
         prompt: "\" اقامت فينيقيا عدد من المستوطنات داخل مياه البحر المتوسط \" استخدمت تلك المستوطنات الفينيقية كـ ....",
@@ -684,7 +687,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 2,
         passage: "",
         prompt: "أي من المدن الفينيقية نالت شهرة كبيرة وتقدمت في فنون العمارة ؟ ....",
@@ -696,7 +699,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 3,
         passage: "",
         prompt: "اعتبر الفينيقيون أن تكوين الوحدة السياسية في بلادهم سيكون علي حساب ....",
@@ -708,7 +711,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 4,
         passage: "",
         prompt: "أخذت بلاد فينيقيا شهرة دينية كبيرة فكانت مهد الديانة اليهودية والمسيحية وساهمت بدور كبير في نشر الإسلام جاء ذلك نتيجة ....",
@@ -720,11 +723,11 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 5,
         passage: "",
         prompt: "تشابهت قرطاجة مع بعض مدن فينيقيا في أنظمتها",
-        options: ["العسكرية", "الثقافية", "الالسياسية", "الاجتماعية"],
+        options: ["العسكرية", "الثقافية", "السياسية", "الاجتماعية"],
         providedAnswer: 2,
         correctAnswer: 2,
         correctAnswerText: "السياسية",
@@ -732,7 +735,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 6,
         passage: "",
         prompt: "أيد صحة العبارة : مثلت بلاد الشام مصدر اهتمام للمصريين القدماء .",
@@ -741,17 +744,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 7,
         passage: "",
         prompt: "بم تفسر : نالت مدينة أوغاريت شهرة فنية واقتصادية كبيرة .",
         correctAnswerText: "حيث نالت شهرة عظيمة في الفن والعمران حيث برعوا في بناء القصور مثل بقايا قصر ضخم عثر عليه في مدينة اوغاريت وقد زينت أعمدته بالفضة / وتقدمت تجاريا اذا كانت ميناء يمتلئ بالبضائع التي تصدر الي كل الجهات",
         explanation: "اشتهرت معمارياً بالقصور المزخرفة، واقتصادياً لكونها ميناءً تجارياً كبيراً لتصدير البضائع."
     },
-    // Page 10
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 1,
         passage: "",
         prompt: "الفينيقيون أول من سكن الشريط الساحلي الشرقى للبحر المتوسط . ترجع تسمية فينيقيا إلى ....",
@@ -763,7 +765,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 2,
         passage: "",
         prompt: "استعصت فينيقيا علي سيطرة العراق قديمًا عليها خلال حكم الدولة الكلدانية نتيجة .....",
@@ -775,11 +777,11 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 3,
         passage: "",
         prompt: "يستدل من قدرة الفينيقيين علي التصدي للأخطار التي تعرضوا لها من جهة الشرق علي تقدمهم في علم .....",
-        options: ["الجغرافيا", "الهندسة", "الكيمياء", "الفلك"],
+        options:["الجغرافيا", "الهندسة", "الكيمياء", "الفلك"],
         providedAnswer: 1,
         correctAnswer: 1,
         correctAnswerText: "الهندسة",
@@ -787,7 +789,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 4,
         passage: "",
         prompt: "أصبح لمصر نفوذ سياسي قوي في سوريا ولبنان خلال عصر ....",
@@ -799,7 +801,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 5,
         passage: "",
         prompt: "تعددت العوامل الطبيعية التي دفعت الفينيقيون للتوجه نحو البحر يخرج عنها .....",
@@ -811,7 +813,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 6,
         passage: "",
         prompt: "قارن موضحًا أوجه الشبه بين : مدينة أوغاريت ومدينة قرطاجة .",
@@ -820,17 +822,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 7,
         passage: "",
         prompt: "أيد صحة العبارة التالية : تميزت مدينة جبيل بتواصلها الحضاري القوي مع مصر علاوة علي كونها مركز ثقافي هام .",
         correctAnswerText: "تعتبر مدينة الجبيل من أوثق المدن الفينيقية صلة بمصر حيث عثر بها علي كثير من التماثيل المصرية القديمة وعلي أحجار عليها أسماء فراعنة مصريين وعثر فيها علي أقدم أبجدية في الوطن العربي القديم",
         explanation: "وجود آثار وأسماء ملوك مصريين بها يدل على التواصل. وكونها أول من اخترع الأبجدية يدل على أهميتها الثقافية."
     },
-    // Page 11
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 1,
         passage: "",
         prompt: "ادرك الفينيقيون أن مصر تمثل أهمية لهم وتعتبر خط دفاع عنهم خلال عصر الدولة الحديثة ظهر ذلك من خلال ....",
@@ -842,7 +843,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 2,
         passage: "",
         prompt: "نالت مدينة أوغاريت شهرة كبيرة في مجال .....",
@@ -854,7 +855,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 3,
         passage: "",
         prompt: "شهدت فترات التاريخ المختلفة مرحلة من التواصل الحضاري بين مصر وبلاد فينيقيا ولكنها تراجعت في عهد الملك ....",
@@ -866,7 +867,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 4,
         passage: "",
         prompt: "أيد صحة العبارة : خضعت بلاد فينيقيا لعدة قوي استعمارية حتي فتحها العرب المسلمون ؟",
@@ -875,7 +876,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 5,
         passage: "",
         prompt: "بم تفسر : ساهمت الأحوال الطبيعية لمنطقة الشام في توجه الفينيقيين تجاه البحر؟ .",
@@ -884,7 +885,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 1,
         passage: "",
         prompt: "خلال حكم الأسرة التاسعة عشر في مصر توطدت العلاقات بين مصر وفينيقيا عن طريق ....",
@@ -896,7 +897,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 2,
         passage: "",
         prompt: "جاء اهتمام المصريون القدماء بالسيطرة علي بلاد الشام قديمًا لعدة أهداف يخرج عنها ....",
@@ -906,10 +907,9 @@ const allQuestions =[
         correctAnswerText: "الرغبة توحيدها في وحدة واحدة",
         explanation: "المصريون سيطروا على بلاد الشام لتحقيق الأمن القومي والاستفادة اقتصادياً، وليس من أجل بناء دولة واحدة موحدة تضم مصر والشام كقومية واحدة."
     },
-    // Page 12
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 3,
         passage: "",
         prompt: "\" جاء فشل حملة نابليون في احتلال الشام لشدة أسوارها \" أي من الأتي فشل في اخضاع فينيقيا لنفس السبب ؟ ....",
@@ -921,7 +921,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 4,
         passage: "",
         prompt: "أيد صحة العبارة : تميزت العلاقات الاقتصادية بين مصر وفينيقيا بالاستمرارية خلال فترات التاريخ المصري القديم .",
@@ -930,7 +930,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 5,
         passage: "",
         prompt: "تعدد عناصر الحكم في مدن فينيقيا في ظل النظام الجمهوري . \" ناقش العبارة تاريخيا \"",
@@ -939,7 +939,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 1,
         passage: "",
         prompt: "يستثني من أسباب توجه الفينيقيون للبحر ....",
@@ -951,7 +951,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 2,
         passage: "",
         prompt: "\" الوحدة السياسية كانت حلم بعيد المنال بالنسبة للمدن الفينيقية الشرقية \" أي من الأتي جعل الوحدة مستبعدة بين مدن فينيقيا ؟ ....",
@@ -963,7 +963,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 3,
         passage: "",
         prompt: "تعددت العوامل التي أدت إلي نشاط الفينيقيين الاقتصادي يخرج عن تلك العوامل .....",
@@ -975,7 +975,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 4,
         passage: "",
         prompt: "أيد صحة العبارة : لبلاد الشام أهمية كبري للديانات السماويه .",
@@ -984,17 +984,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 5,
         passage: "",
         prompt: "حدد العلاقة بين : إطلاق اسم فينيقيا علي ساحل الشام والنشاط الاقتصادي له .",
         correctAnswerText: "أطلق الإغريق علي سكان ساحل الشام اسم فينكس أى الشعب الاحمر اللون نسبة إلي الصبغة الحمراء التي استخرجوها من الحيوانات البحرية التي كانت تعيش قرب سواحلهم واشتهروا باستخدامها في صبغ المنسوجات ومن كلمة فينكس اشتق العرب منها لفظ فينيقيا",
         explanation: "الاسم مأخوذ من كلمة 'فينكس' الإغريقية وتعني الصبغة الحمراء، والتي شكلت أساساً من أساسيات نشاطهم التجاري الاقتصادي."
     },
-    // Page 13
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 1,
         passage: "",
         prompt: "\" تمتعت فينيقيا بشهرة كبيرة بين حضارات العالم القديم \" أي من إنجازات الفينيقيين الأتية جعلت لهم هذه المكانة ؟ .....",
@@ -1006,7 +1005,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 2,
         passage: "",
         prompt: "تعدد العوامل التي أدت إلي تقدم فينيقيا الاقتصادي يخرج عن تلك العوامل ....",
@@ -1018,7 +1017,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 3,
         passage: "",
         prompt: "جاء انهيار النفوذ المصري في منطقة الشام نتيجة ....",
@@ -1030,7 +1029,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 4,
         passage: "",
         prompt: "جاء اهتمام المدن الفينيقية بإنشاء القلاع والحصون والأسوار نتيجة .....",
@@ -1042,7 +1041,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 5,
         passage: "",
         prompt: "\" اقامت فينيقيا عدد من المستوطنات داخل مياه البحر المتوسط \" الاستخدام الاساسي لتلك المستوطنات الفينيقية كان .....",
@@ -1054,7 +1053,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 6,
         passage: "",
         prompt: "أيد صحة العبارة الاتية : تأثر الفينيقيون بأفكار المصريين قديمًا ومعتقداتهم الدينية.",
@@ -1063,17 +1062,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 7,
         passage: "",
         prompt: "فسر أسباب : أبتكار الفينيقيين الأبجدية كأول أبجدية عرفها العالم .",
         correctAnswerText: "لتسهيل معاملتهم التجارية وتسجيل مايبيعونه ويشترونه في سجلاتهم فخترعوا أول أبجدية عرفها العالم في القرن 14 ق .م",
         explanation: "الحاجة الاقتصادية والتجارية لتسجيل فواتير ومعاملات البيع والشراء بسلاسة وسرعة، هي ما دفع الفينيقيين لابتكار الأبجدية كبديل للأنظمة المعقدة السابقة."
     },
-    // Page 14
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 1,
         passage: "",
         prompt: "تميز المثلث الحضاري في الشرق القديم بأضلاعه الثلاثة بـ ....",
@@ -1085,7 +1083,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 2,
         passage: "",
         prompt: "أي مما يأتي يستثني من العوامل التي أدت إلي ازدهار الأحوال الاقتصادية في فينيقيا ؟ ....",
@@ -1097,7 +1095,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 3,
         passage: "",
         prompt: "أي من الطبقات الأتية مثلت طبقة وسطي في كل من بلاد العراق وفينيقيا قديمًا ؟ ....",
@@ -1109,7 +1107,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 4,
         passage: "",
         prompt: "ربط الفينيقيون معبودتهم عشتار بـ ....",
@@ -1121,7 +1119,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 5,
         passage: "",
         prompt: "تشابهت الحضارات المصرية والعراقية والفينيقية قديمًا في براعتهم في صناعة ....",
@@ -1133,7 +1131,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 6,
         passage: "",
         prompt: "حدد وجه الشبه بين : خصائص الدين عند العراقيين والفينيقيين القدماء .",
@@ -1142,17 +1140,16 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 7,
         passage: "",
         prompt: "يُعد علم الهندسة من أعظم علوم الفينيقيون . أثبت صحة العبارة .",
         correctAnswerText: "حيث برع الفينيقيون في فن العمارة وزخرفتها وظهر ذلك من خلال 1- القلاع والحصون والاسوار الفينيقية التي تعد من أعظم ماعرفه العالم القديم 2-القصور التي برعوا في بنائها وقد دل علي ذلك بقايا قصر ضخم عثر عليه في أوغاريت وقد زينت أعمدته بالفضة 3- المعابد وتدل علي تمكن المهندسين من فنهم وقدرتهم علي استخدام وكتل ضخمة من الاحجار",
         explanation: "الدليل على تفوقهم الهندسي يتجلى في ضخامة الأسوار والقلاع وبناء القصور وتخطيط المعابد."
     },
-    // Page 15
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 1,
         passage: "",
         prompt: "تعتبر أكثر الحرف التي كانت تمثل تحديًا أمام الفينيقيون في ممارستها حرفة ........",
@@ -1164,7 +1161,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 2,
         passage: "",
         prompt: "\" تنوعت صادرات الفينيقيين حسب موقع المكان في داخل البلاد \" يمكننا القول بأن مصدر أهم الصادرات الفينيقية لمصر كانت من المناطق .....",
@@ -1176,11 +1173,11 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 3,
         passage: "",
         prompt: "تُعد أشهر المدن الفينيقية في الاهتمام بفنون العمارة مدينة ............",
-        options: ["أوغاريت", "جبيل", "عكا", "بلعبك"],
+        options:["أوغاريت", "جبيل", "عكا", "بلعبك"],
         providedAnswer: 0,
         correctAnswer: 0,
         correctAnswerText: "أوغاريت",
@@ -1188,7 +1185,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 4,
         passage: "",
         prompt: "فسر الأسباب : التي جعلت المؤرخون يعتبرون الفينيقيين أصحاب فضل علي الثقافة والحضارة في العالم .",
@@ -1197,7 +1194,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 5,
         passage: "",
         prompt: "أيد صحة العبارة : تعدد معابر التواصل الحضاري بين حضارات العالم القديم .",
@@ -1206,7 +1203,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 1,
         passage: "",
         prompt: "يستثني من خصائص الدين عند الفينيقيين القدماء قبل تواصلهم مع الحضارة المصرية ....",
@@ -1218,7 +1215,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 2,
         passage: "",
         prompt: "\" لا تأخذ المعارف كقالب جامد ، عليك أن تضيف لها لمستك الخاصة لتصبح مبدعًا \" تنطبق العبارة السابقة علي أي من حضارات العالم في نشر الأبجدية الأوروبية ....",
@@ -1228,10 +1225,9 @@ const allQuestions =[
         correctAnswerText: "الفينيقيون والأغريق",
         explanation: "الفينيقيون أخذوا الكتابة من المصريين وطوروها إلى أبجدية (حروف)، والإغريق أخذوا الأبجدية الفينيقية ولم يأخذوها كقالب جامد بل عدلوا فيها وأورثوها للرومان."
     },
-    // Page 16
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 3,
         passage: "",
         prompt: "أي من المدن الفينيقية نالت شهرة كبيرة وتقدم في فنون العمارة ؟ ....",
@@ -1243,7 +1239,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 4,
         passage: "",
         prompt: "أيد صحة العبارة : يُعد المجتمع في فينيقيا مجتمعا طبقيًا .",
@@ -1252,7 +1248,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 5,
         passage: "",
         prompt: "استنتج الأثر الناتج عن : نهضة الفينيقيون التجارية وبراعتهم فيها",
@@ -1261,7 +1257,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 1,
         passage: "",
         prompt: "\" أحيانا ما يتفوق التلميذ علي استاذه \" ينطبق المثل السابق علي أي من الصناعات الفينيقية ؟ ....",
@@ -1273,7 +1269,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 2,
         passage: "",
         prompt: "أي من المدن الفينيقية تفوقت في النقل البري ؟ ....",
@@ -1285,7 +1281,7 @@ const allQuestions =[
     },
     {
         type: 'mcq',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 3,
         passage: "",
         prompt: "استفادت مصر قديمًا من التواصل الحضاري مع فينيقيا خلال عصر العصر المتأخر في ....",
@@ -1297,7 +1293,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 4,
         passage: "",
         prompt: "فسر أسباب : اهتمام الفينيقيين ببناء الكثير من المعابد.",
@@ -1306,7 +1302,7 @@ const allQuestions =[
     },
     {
         type: 'essay',
-        lessonId: 'LESSON_ID_HERE',
+        lessonId: 'LESSON_PHOENICIA',
         originalNumber: 5,
         passage: "",
         prompt: "أيد صحة العبارة : تميزت العلاقات الاقتصادية بين مصر وفينيقيا بالاستمرارية خلال فترات التاريخ المصري القديم ؟",
